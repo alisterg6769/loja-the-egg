@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Egg — Proteção em cada detalhe</title>
+<meta name="description" content="The Egg: ovos frescos por unidade, dúzia ou cartela de 20, entregues na sua porta.">
+<link rel="icon" href="/img/favicon.png">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a href="#/" class="brand" aria-label="The Egg — início"><img src="/img/egg-icon.png" alt=""><span>The <b>Egg</b></span></a>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav id="nav">
+      <a href="#/" data-r="home">Início</a>
+      <a href="#/produtos" data-r="produtos">Produtos</a>
+      <a href="#/sacola" data-r="sacola" class="cartlink">Minha Sacola <i id="cartCount" hidden>0</i></a>
+      <a href="#/compras" data-r="compras">Minhas Compras</a>
+      <a href="#/conta" data-r="conta">Minha Conta</a>
+      <a href="#/admin" data-r="admin" id="adminLink" hidden>Admin</a>
+      <a href="#/entrar" data-r="entrar" id="authLink" class="pill">Login / Cadastro</a>
+    </nav>
+  </div>
+</header>
+<main id="app" tabindex="-1"></main>
+<footer>
+  <img src="/img/logo.png" alt="The Egg" class="foot-logo">
+  <p>© <span id="yr"></span> The Egg — Proteção em cada detalhe.</p>
+</footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="/app.js"></script>
+</body>
+</html>
